@@ -1,0 +1,27 @@
+{
+  "config": {
+    "episodes": 600,
+    "max_steps": 500,
+    "gamma": 0.99,
+    "learning_rate": 0.001,
+    "batch_size": 64,
+    "replay_capacity": 100000,
+    "warmup_steps": 1000,
+    "train_every": 4,
+    "target_every": 2000,
+    "epsilon_start": 1.0,
+    "epsilon_end": 0.05,
+    "epsilon_decay_steps": 80000,
+    "eval_every": 50,
+    "eval_episodes": 20,
+    "final_eval_episodes": 50,
+    "hidden1": 128,
+    "hidden2": 64
+  },
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "device": "cpu"
+}

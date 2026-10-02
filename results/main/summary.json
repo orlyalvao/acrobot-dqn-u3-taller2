@@ -1,0 +1,39 @@
+{
+  "random_baseline": {
+    "mean_reward": -500.0,
+    "std_reward": 0.0,
+    "median_reward": -500.0,
+    "success_rate": 0.0,
+    "mean_steps": 500.0,
+    "mean_maximum_height": -0.397156186401844
+  },
+  "dqn_by_seed": [
+    {
+      "seed": 11,
+      "mean_reward": -94.88,
+      "std_reward": 22.94771341594644,
+      "median_reward": -88.0,
+      "success_rate": 1.0,
+      "mean_steps": 95.88,
+      "mean_maximum_height": 1.2081541180610658
+    },
+    {
+      "seed": 29,
+      "mean_reward": -500.0,
+      "std_reward": 0.0,
+      "median_reward": -500.0,
+      "success_rate": 0.0,
+      "mean_steps": 500.0,
+      "mean_maximum_height": -1.226353362798691
+    },
+    {
+      "seed": 47,
+      "mean_reward": -366.16,
+      "std_reward": 114.60550971547073,
+      "median_reward": -321.0,
+      "success_rate": 0.62,
+      "mean_steps": 366.78,
+      "mean_maximum_height": 0.006406402587890625
+    }
+  ]
+}
